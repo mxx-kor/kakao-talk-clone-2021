@@ -1,3 +1,3 @@
 # kakao talk clone 2021 update
 
-CSS got so much better!
+HTML & CSS got so much fun!
