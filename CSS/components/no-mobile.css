@@ -9,10 +9,22 @@
   align-items: center;
   font-size: 32px;
   top: 0;
+  animation: hideNoMobile ease-in-out forwards;
+  animation-delay: 2s;
 }
 
 @media screen and (max-width: 645px) {
   #no-mobile {
     display: none;
+  }
+}
+
+@keyframes hideNoMobile {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
   }
 }
